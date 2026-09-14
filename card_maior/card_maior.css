@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    font-family: Arial, sans-serif;
+}
+
+.card-integrante {
+    position: relative;
+    width: 405px;
+    min-height: 445px;
+    padding: 28px 15px 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 0 2px #168bd0;
+}
+
+/* Botão fechar */
+
+.fechar {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    border: none;
+    background: transparent;
+    color: #888;
+    font-size: 38px;
+    font-weight: 200;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* Parte superior */
+
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 5px;
+}
+
+.foto-container {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.foto-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Informações */
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 5px;
+}
+
+.informacoes div {
+    min-width: 200px;
+}
+
+.informacoes span {
+    font-family: monospace;
+    font-size: 14px;
+    color: #222;
+}
+
+.informacoes p {
+    margin-top: 3px;
+    font-family: monospace;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Nome e profissão */
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.perfil h2 {
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.perfil p {
+    margin-top: 8px;
+    font-family: monospace;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Descrição */
+
+.descricao {
+    height: 160px;
+    margin: 43px 0 0;
+    padding: 24px 14px;
+    background-color: #2998d3;
+    border-radius: 16px;
+}
+
+.descricao p {
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: justify;
+}
